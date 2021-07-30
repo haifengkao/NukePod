@@ -1,0 +1,6 @@
+framework module Pods_NukePod__iOS_ {
+  umbrella header "Pods-NukePod (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

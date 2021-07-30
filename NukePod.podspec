@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NukePod'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of NukePod.'
+  s.version          = '10.0.0'
+  s.summary          = 'A powerful image loading and caching system'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A powerful image loading and caching system which makes simple tasks like loading images into views extremely simple, while also supporting more advanced features for more demanding apps.
                        DESC
 
   s.homepage         = 'https://github.com/haifengkao/NukePod'
@@ -28,10 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/haifengkao/NukePod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  # we need ios 11.0 to fix xcodebuild error
-  # https://blog.csdn.net/qq_27785797/article/details/109058663
-  s.ios.deployment_target = '14.0'
-  s.osx.deployment_target = '11.0'
+  s.ios.deployment_target = '11.0'
+  s.watchos.deployment_target = '4.0'
+  s.osx.deployment_target = '10.13'
+  s.tvos.deployment_target = '11.0'
 
   s.swift_version = '5'
 

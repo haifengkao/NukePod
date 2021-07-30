@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (9.2.0)
+  - NukePod (10.0.0)
+  - Quick (4.0.0)
+
+DEPENDENCIES:
+  - Nimble
+  - NukePod (from `../`)
+  - Quick
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  NukePod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
+  NukePod: a5313ff229c1c4e84c739e2edd1f80dc96938506
+  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
+
+PODFILE CHECKSUM: 26c12c76289132e7627895494bbff4d5b637ca09
+
+COCOAPODS: 1.10.1
