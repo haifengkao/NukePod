@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NukePod'
-  s.version          = '10.2.0'
+  s.version          = '10.3.0'
   s.summary          = 'A powerful image loading and caching system'
 
 # This description is used to generate tags and improve search results.
